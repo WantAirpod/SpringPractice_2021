@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+ 		http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!--springContainer에 위치=class에 있는 wordDao객체를 만든다.-->
+	<bean id="wordDao" class="com.word.dao.WordDao" />
+	<!--springContainer에 위치=class에 있는 WordRegisterService객체를 만든다.
+	그런데 해당 서비스의 생성자는 디폴트 생성자가 아닌 파라미터가 존재하는 생성자 이므로
+	위에서 생성한 wordDao를 생성자의 파라미터로 받는다.-->
+	<bean id="registerService" class="com.word.service.WordRegisterService">
+		<constructor-arg ref="wordDao" /> <!-- 위에서 생성한 객체체-->
+	</bean>
+	<!--위와 같음-->
+	<bean id="searchService" class="com.word.service.WordSearchService">
+		<constructor-arg ref="wordDao" />
+	</bean>
+	
+</beans>
