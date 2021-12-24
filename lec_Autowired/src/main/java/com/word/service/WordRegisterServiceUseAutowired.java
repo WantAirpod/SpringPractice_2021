@@ -8,8 +8,12 @@ public class WordRegisterServiceUseAutowired {
 
 	/**
 	 * 알아서 Autowired해준다.
+	 * @Autowired(required = false) : 있으면 넣어주고 없으면 exception 발생하지 않고 넘어간다.
 	 */
-	@Autowired
+	@Autowired(required = false)
+	/**
+	 * @Qualifier를 쓰면 해당 bean을 정확하게 명시해준다. 사실상 이름이 같으면 상관이 없다. 안써도된다. (좋은 방법이 아니다.)
+	 */
 //	@Qualifier("usedDao")
 	private WordDao wordDao;
 	
