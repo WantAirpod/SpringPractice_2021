@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed5d6ae6-c6ac-4a8b-b17b-7ead1c2d145b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lec_Autowired/src/main/java/com/word/service/WordRegisterServiceUseAutowired.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lec_Autowired/src/main/java/com/word/service/WordRegisterServiceUseAutowired.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lec_Autowired/src/main/resources/appCtxUseAutowired.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lec_Autowired/src/main/resources/appCtxUseAutowired.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lec_xmlToJava/src/main/java/ems/member/MainClassUseConfigration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lec_xmlToJava/src/main/java/ems/member/MainClassUseConfigration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +39,25 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.25977013" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="Application.MainClassUseAutowired">
+  <component name="RunManager" selected="Application.MainClassUseConfigration">
+    <configuration name="MainClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.brms.MainClass" />
+      <module name="lec11Pjt001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.brms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.word.MainClass" />
       <module name="lec09Pjt001" />
@@ -70,6 +84,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainClassUseConfigration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ems.member.MainClassUseConfigration" />
+      <module name="lec12Pjt001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ems.member.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainClassUseXMLsImport" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ems.member.main.MainClassUseXMLsImport" />
       <module name="lec06Pjt002" />
@@ -85,6 +112,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClassUseConfigration" />
+        <item itemvalue="Application.MainClass (1)" />
         <item itemvalue="Application.MainClassUseAutowired" />
         <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.MainClassUseXMLsImport" />
@@ -100,7 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1640259255819</updated>
       <workItem from="1640259260077" duration="4258000" />
-      <workItem from="1640306109021" duration="512000" />
+      <workItem from="1640306109021" duration="3880000" />
     </task>
     <servers />
   </component>

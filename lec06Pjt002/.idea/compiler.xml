@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lec09Pjt001" />
         <module name="lec08Pjt001" />
         <module name="lec06Pjt002" />
+        <module name="lec09Pjt001" />
+        <module name="lec11Pjt001" />
+        <module name="lec12Pjt001" />
       </profile>
     </annotationProcessing>
   </component>
