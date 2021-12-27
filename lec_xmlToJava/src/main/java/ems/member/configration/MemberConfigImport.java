@@ -12,7 +12,7 @@ import ems.member.service.StudentRegisterService;
 import ems.member.service.StudentSelectService;
 
 @Configuration
-@Import({MemberConfig2.class, MemberConfig3.class})
+@Import({MemberConfig2.class, MemberConfig3.class}) //import 해주는 부분
 public class MemberConfigImport {
 
 	@Bean

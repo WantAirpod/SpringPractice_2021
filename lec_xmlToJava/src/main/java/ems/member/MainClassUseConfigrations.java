@@ -1,20 +1,15 @@
 package ems.member;
 
+import ems.member.configration.MemberConfig1;
+import ems.member.configration.MemberConfig2;
+import ems.member.configration.MemberConfig3;
+import ems.member.service.*;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
-
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
-import ems.member.configration.MemberConfig1;
-import ems.member.configration.MemberConfig2;
-import ems.member.configration.MemberConfig3;
-import ems.member.service.EMSInformationService;
-import ems.member.service.StudentAllSelectService;
-import ems.member.service.StudentModifyService;
-import ems.member.service.StudentRegisterService;
-import ems.member.service.StudentSelectService;
 
 public class MainClassUseConfigrations {
 
@@ -41,6 +36,9 @@ public class MainClassUseConfigrations {
 				"Law", "Statistics", "Computer", "Economics", "Public Administration"};
 
 //		StudentAssembler assembler = new StudentAssembler();
+		/**
+		 * 다수의 config파일 설정하는 방법
+		 */
 		AnnotationConfigApplicationContext ctx = 
 				new AnnotationConfigApplicationContext(MemberConfig1.class, MemberConfig2.class, MemberConfig3.class);
 		

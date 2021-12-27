@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed5d6ae6-c6ac-4a8b-b17b-7ead1c2d145b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lec_xmlToJava/src/main/java/ems/member/MainClassUseConfigration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lec_xmlToJava/src/main/java/ems/member/MainClassUseConfigration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lec_xmlToJava/src/main/java/ems/member/MainClassUseConfigrations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lec_xmlToJava/src/main/java/ems/member/MainClassUseConfigrations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lec_xmlToJava/src/main/java/ems/member/configration/MemberConfig3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lec_xmlToJava/src/main/java/ems/member/configration/MemberConfig3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lec_xmlToJava/src/main/java/ems/member/configration/MemberConfigImport.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lec_xmlToJava/src/main/java/ems/member/configration/MemberConfigImport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1640259255819</updated>
       <workItem from="1640259260077" duration="4258000" />
-      <workItem from="1640306109021" duration="3880000" />
+      <workItem from="1640306109021" duration="6361000" />
     </task>
     <servers />
   </component>

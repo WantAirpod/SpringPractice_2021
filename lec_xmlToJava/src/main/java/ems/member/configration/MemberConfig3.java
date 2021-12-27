@@ -1,19 +1,21 @@
 package ems.member.configration;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-
+import ems.member.DataBaseConnectionInfo;
+import ems.member.service.EMSInformationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import ems.member.DataBaseConnectionInfo;
-import ems.member.service.EMSInformationService;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 @Configuration
 public class MemberConfig3 {
 
+	/**
+	 * MemberConfig2에 있는 것 Autowired를 해준다. 어차피 Spring Container는 하나라서 상관없음.
+	 */
 	@Autowired
 	DataBaseConnectionInfo dataBaseConnectionInfoDev;
 	
@@ -45,7 +47,10 @@ public class MemberConfig3 {
 		administrators.put("Cheney", "cheney@springPjt.org");
 		administrators.put("Jasper", "jasper@springPjt.org");
 		info.setAdministrators(administrators);
-		
+
+		/**
+		 * MemberConfig2에 잇는 bean을 호출
+		 */
 		Map<String, DataBaseConnectionInfo> dbInfos = new HashMap<String, DataBaseConnectionInfo>();
 		dbInfos.put("dev", dataBaseConnectionInfoDev);
 		dbInfos.put("real", dataBaseConnectionInfoReal);
