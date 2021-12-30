@@ -12,6 +12,8 @@
 	<!--2.Autowired를 사용하기 위한 것 -->
 	<context:annotation-config />
 
+
+	<!-- qualifier 를 써주면서 해당 bean을 명시해주는 기능-->
 	<bean id="wordDao" class="com.word.dao.WordDao" >
 		<!-- <qualifier value="usedDao"/> -->
 	</bean>

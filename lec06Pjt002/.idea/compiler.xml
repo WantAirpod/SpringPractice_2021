@@ -10,8 +10,14 @@
         <module name="lec06Pjt002" />
         <module name="lec09Pjt001" />
         <module name="lec11Pjt001" />
+        <module name="lec14" />
         <module name="lec12Pjt001" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="lec14" options="-Xlint:all" />
+    </option>
   </component>
 </project>

@@ -5,18 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed5d6ae6-c6ac-4a8b-b17b-7ead1c2d145b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../lec_SpringMVCWebService-1/src/main/java/com/bs/lec14/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec_SpringMVCWebService-1/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lec_xmlToJava/src/main/java/ems/member/MainClassUseConfigrations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lec_xmlToJava/src/main/java/ems/member/MainClassUseConfigrations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lec_xmlToJava/src/main/java/ems/member/configration/MemberConfig3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lec_xmlToJava/src/main/java/ems/member/configration/MemberConfig3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lec_xmlToJava/src/main/java/ems/member/configration/MemberConfigImport.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lec_xmlToJava/src/main/java/ems/member/configration/MemberConfigImport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lec_Autowired/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lec_Autowired/target/classes/META-INF/maven/spring4/lec09Pjt001/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lec_Autowired/target/classes/META-INF/maven/spring4/lec09Pjt001/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lec_Autowired/target/classes/appCtxUseAutowired.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lec_Autowired/target/classes/appCtxUseAutowired.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lec_Autowired/target/classes/com/word/service/WordRegisterServiceUseAutowired.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lec_Autowired/target/classes/com/word/service/WordRegisterServiceUseAutowired.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lec_LifeCycle/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lec_LifeCycle/target/classes/META-INF/maven/spring4/lec11Pjt001/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lec_LifeCycle/target/classes/META-INF/maven/spring4/lec11Pjt001/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lec_LifeCycle/target/classes/com/brms/book/service/BookRegisterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lec_LifeCycle/target/classes/com/brms/book/service/BookRegisterService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lec_xmlToJava/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lec_xmlToJava/target/classes/META-INF/maven/spring4/lec12Pjt001/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lec_xmlToJava/target/classes/META-INF/maven/spring4/lec12Pjt001/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lec_xmlToJava/target/classes/ems/member/MainClassUseConfigrations.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lec_xmlToJava/target/classes/ems/member/MainClassUseConfigrations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lec_xmlToJava/target/classes/ems/member/configration/MemberConfig3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lec_xmlToJava/target/classes/ems/member/configration/MemberConfig3.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -36,15 +65,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lec_SpringMVCWebService-1/src/main/webapp/WEB-INF/views" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25977013" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.MainClassUseConfigration">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../lec_SpringMVCWebService-1/src/main/webapp/WEB-INF/views" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.springMVC">
     <configuration name="MainClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.brms.MainClass" />
       <module name="lec11Pjt001" />
@@ -110,6 +146,93 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="springMVC" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.99" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="d06f5e40-524e-452b-a88d-1e40d17a39e2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56773" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MainClass" />
+      <item itemvalue="Application.MainClass (1)" />
+      <item itemvalue="Application.MainClassUseAutowired" />
+      <item itemvalue="Application.MainClassUseConfigration" />
+      <item itemvalue="Application.MainClassUseXMLsImport" />
+      <item itemvalue="Tomcat Server.springMVC" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainClassUseConfigration" />
@@ -129,7 +252,10 @@
       <option name="presentableId" value="Default" />
       <updated>1640259255819</updated>
       <workItem from="1640259260077" duration="4258000" />
-      <workItem from="1640306109021" duration="6361000" />
+      <workItem from="1640306109021" duration="8210000" />
+      <workItem from="1640656639309" duration="1000" />
+      <workItem from="1640757500422" duration="2542000" />
+      <workItem from="1640838194758" duration="1025000" />
     </task>
     <servers />
   </component>
