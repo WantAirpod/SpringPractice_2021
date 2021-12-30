@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="lec17">
+    <output-path>$PROJECT_DIR$/out/artifacts/lec17</output-path>
+    <root id="archive" name="lec17.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="lec17" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.1.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.1.0.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.1.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.1.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.1.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.1.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.1.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.6.10" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.6" />
+          <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.6.6" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.6.6" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.15" />
+          <element id="library" level="project" name="Maven: javax.inject:javax.inject:1" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
