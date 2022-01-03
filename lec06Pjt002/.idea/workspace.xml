@@ -10,8 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed5d6ae6-c6ac-4a8b-b17b-7ead1c2d145b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/lec17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/lect17.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -30,6 +28,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -258,7 +264,10 @@
       <workItem from="1640757500422" duration="2542000" />
       <workItem from="1640838194758" duration="1909000" />
       <workItem from="1640842473024" duration="1732000" />
-      <workItem from="1640845598491" duration="1969000" />
+      <workItem from="1640845598491" duration="2706000" />
+      <workItem from="1640920242937" duration="667000" />
+      <workItem from="1641188608316" duration="1343000" />
+      <workItem from="1641190328788" duration="1310000" />
     </task>
     <servers />
   </component>

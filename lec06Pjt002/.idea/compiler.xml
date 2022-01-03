@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lec17" />
+        <module name="lec19" />
         <module name="lec11Pjt001" />
         <module name="lec08Pjt001" />
         <module name="lec06Pjt002" />
@@ -22,6 +23,7 @@
       <module name="lec14" options="-Xlint:all" />
       <module name="lec16" options="-Xlint:all" />
       <module name="lec17" options="-Xlint:all" />
+      <module name="lec19" options="-Xlint:all" />
     </option>
   </component>
 </project>
