@@ -6,18 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lec17" />
-        <module name="lec19" />
         <module name="lec11Pjt001" />
         <module name="lec21" />
-        <module name="lec08Pjt001" />
         <module name="lec20" />
         <module name="lec06Pjt002" />
-        <module name="lec09Pjt001" />
         <module name="lec14" />
         <module name="lec20 (1)" />
         <module name="lec12Pjt001" />
         <module name="lec16" />
+        <module name="lec17" />
+        <module name="lec19" />
+        <module name="lec08Pjt001" />
+        <module name="lec21 (1)" />
+        <module name="lec09Pjt001" />
       </profile>
     </annotationProcessing>
   </component>
@@ -30,6 +31,7 @@
       <module name="lec20" options="-Xlint:all" />
       <module name="lec20 (1)" options="-Xlint:all" />
       <module name="lec21" options="-Xlint:all" />
+      <module name="lec21 (1)" options="-Xlint:all" />
     </option>
   </component>
 </project>

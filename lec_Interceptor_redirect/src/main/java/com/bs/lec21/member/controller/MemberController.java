@@ -1,20 +1,21 @@
 package com.bs.lec21.member.controller;
 
-import com.bs.lec21.member.Member;
-import com.bs.lec21.member.service.MemberService;
+import java.text.DateFormat;
+import java.util.Date;
+import java.util.Locale;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-import java.text.DateFormat;
-import java.util.Date;
-import java.util.Locale;
+import com.bs.lec21.member.Member;
+import com.bs.lec21.member.service.MemberService;
 
 @Controller
 @RequestMapping("/member")
@@ -78,19 +79,17 @@ public class MemberController {
 	
 	// Modify
 	@RequestMapping(value = "/modifyForm")
-	public String modifyForm(Model model, HttpServletRequest request) {
+	public ModelAndView modifyForm(HttpServletRequest request) {
 		
 		HttpSession session = request.getSession();
 		Member member = (Member) session.getAttribute("member");
 		
-		// 리다이렉트 코드
-		if(null == member) {
-			return "redirect:/";
-		} else {
-			model.addAttribute("member", service.memberSearch(member));
-		}
+		ModelAndView mav = new ModelAndView();
+		mav.addObject("member", service.memberSearch(member));
 		
-		return "/member/modifyForm";
+		mav.setViewName("/member/modifyForm");
+		
+		return mav;
 	}
 	
 	@RequestMapping(value = "/modify", method = RequestMethod.POST)

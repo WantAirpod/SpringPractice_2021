@@ -13,7 +13,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lec_SessionAndCookie/src/main/java/com/bs/lec20/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lec_SessionAndCookie/src/main/java/com/bs/lec20/member/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lec_redirect/src/main/java/com/bs/lec21/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lec_redirect/src/main/java/com/bs/lec21/member/controller/MemberController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,7 +269,7 @@
       <workItem from="1640920242937" duration="667000" />
       <workItem from="1641188608316" duration="1343000" />
       <workItem from="1641190328788" duration="2378000" />
-      <workItem from="1641460628136" duration="1309000" />
+      <workItem from="1641460628136" duration="2335000" />
     </task>
     <servers />
   </component>
