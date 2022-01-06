@@ -1,19 +1,22 @@
-package com.bs.lec20.member.controller;
+package com.bs.lec21.member.controller;
 
-import com.bs.lec20.member.Member;
-import com.bs.lec20.member.service.MemberService;
+import java.text.DateFormat;
+import java.util.Date;
+import java.util.Locale;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-import java.text.DateFormat;
-import java.util.Date;
-import java.util.Locale;
+import com.bs.lec21.member.Member;
+import com.bs.lec21.member.service.MemberService;
 
 @Controller
 @RequestMapping("/member")
@@ -55,26 +58,6 @@ public class MemberController {
 	public String loginForm(Member member) {
 		return "/member/loginForm";
 	}
-
-
-	/**
-	 * 세션사용
-	 * @param member
-	 * @param request 세션사용
-	 * @return
-	 */
-	@RequestMapping(value = "/login", method = RequestMethod.POST)
-	public String memLogin11(Member member, HttpServletRequest request) {
-		
-		Member mem = service.memberSearch(member);
-		//세션 사용
-		HttpSession session = request.getSession();
-		//속성이름, 속성 값 설정
-		session.setAttribute("member", mem);
-		
-		return "/member/loginOk";
-	}
-
 	
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
 	public String memLogin(Member member, HttpSession session) {
@@ -87,38 +70,29 @@ public class MemberController {
 	}
 	
 	// Logout
-	/*
-	@RequestMapping("/logout")
-	public String memLogout(Member member, HttpServletRequest request) {
-		
-		HttpSession session = request.getSession();
-		session.invalidate();
-		
-		return "/member/logoutOk";
-	}
-	*/
-	
 	@RequestMapping("/logout")
 	public String memLogout(Member member, HttpSession session) {
-		//세션을 삭제하는 경우
+		
 		session.invalidate();
 		
 		return "/member/logoutOk";
 	}
 	
 	// Modify
-	@RequestMapping(value = "/modifyForm", method = RequestMethod.GET)
-	public ModelAndView modifyForm(HttpServletRequest request) {
+	@RequestMapping(value = "/modifyForm")
+	public String modifyForm(Model model, HttpServletRequest request) {
 		
 		HttpSession session = request.getSession();
 		Member member = (Member) session.getAttribute("member");
 		
-		ModelAndView mav = new ModelAndView();
-		mav.addObject("member", service.memberSearch(member));
 		
-		mav.setViewName("/member/modifyForm");
+		if(null == member) {
+			return "redirect:/";
+		} else {
+			model.addAttribute("member", service.memberSearch(member));
+		}
 		
-		return mav;
+		return "/member/modifyForm";
 	}
 	
 	@RequestMapping(value = "/modify", method = RequestMethod.POST)
@@ -144,8 +118,14 @@ public class MemberController {
 		
 		HttpSession session =  request.getSession();
 		Member member = (Member) session.getAttribute("member");
-		mav.addObject("member", member);
-		mav.setViewName("/member/removeForm");
+		
+		if(null == member) {
+			mav.setViewName("redirect:/");
+		} else {
+			mav.addObject("member", member);
+			mav.setViewName("/member/removeForm");
+		}
+		
 		
 		return mav;
 	}

@@ -13,6 +13,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lec_SessionAndCookie/src/main/java/com/bs/lec20/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lec_SessionAndCookie/src/main/java/com/bs/lec20/member/controller/MemberController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +65,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lec_SpringMVCWebService-1/src/main/webapp/WEB-INF/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -267,7 +268,8 @@
       <workItem from="1640845598491" duration="2706000" />
       <workItem from="1640920242937" duration="667000" />
       <workItem from="1641188608316" duration="1343000" />
-      <workItem from="1641190328788" duration="1310000" />
+      <workItem from="1641190328788" duration="2378000" />
+      <workItem from="1641460628136" duration="1309000" />
     </task>
     <servers />
   </component>
