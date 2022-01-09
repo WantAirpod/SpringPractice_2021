@@ -20,6 +20,8 @@
         <option value="$PROJECT_DIR$/../lec_SessionAndCookie-2/pom.xml" />
         <option value="$PROJECT_DIR$/../lec_redirect/pom.xml" />
         <option value="$PROJECT_DIR$/../lec_Interceptor_redirect/pom.xml" />
+        <option value="$PROJECT_DIR$/../lec_JDBC/pom.xml" />
+        <option value="$PROJECT_DIR$/../lec_JDBC_Template/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,14 +1,13 @@
 package com.bs.lec21.member.service;
 
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
-
+import com.bs.lec21.member.Member;
+import com.bs.lec21.member.dao.MemberDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.bs.lec21.member.Member;
-import com.bs.lec21.member.dao.MemberDao;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
 
 @Service
 public class MemberService implements IMemberService {
@@ -18,7 +17,13 @@ public class MemberService implements IMemberService {
 	
 	@Override
 	public void memberRegister(Member member) {
-		printMembers(dao.memberInsert(member));
+		int result = dao.memberInsert(member);
+		if(result==0){
+			//fail
+		}else{
+			//success
+		}
+		//printMembers(dao.memberInsert(member));
 	}
 
 	@Override

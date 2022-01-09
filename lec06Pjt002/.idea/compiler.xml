@@ -9,9 +9,11 @@
         <module name="lec11Pjt001" />
         <module name="lec21" />
         <module name="lec20" />
+        <module name="lec23" />
         <module name="lec06Pjt002" />
         <module name="lec14" />
         <module name="lec20 (1)" />
+        <module name="lec24" />
         <module name="lec12Pjt001" />
         <module name="lec16" />
         <module name="lec17" />
@@ -32,6 +34,7 @@
       <module name="lec20 (1)" options="-Xlint:all" />
       <module name="lec21" options="-Xlint:all" />
       <module name="lec21 (1)" options="-Xlint:all" />
+      <module name="lec23" options="-Xlint:all" />
     </option>
   </component>
 </project>
