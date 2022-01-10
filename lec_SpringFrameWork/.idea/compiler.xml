@@ -10,12 +10,12 @@
         <module name="lec21" />
         <module name="lec20" />
         <module name="lec23" />
+        <module name="lec06Pjt002" />
         <module name="lec14" />
         <module name="lec20 (1)" />
         <module name="lec24" />
         <module name="lec12Pjt001" />
         <module name="lec16" />
-        <module name="lec24 (1)" />
         <module name="lec17" />
         <module name="lec19" />
         <module name="lec08Pjt001" />
@@ -23,9 +23,6 @@
         <module name="lec09Pjt001" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="lec06Pjt002" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -38,7 +35,6 @@
       <module name="lec21" options="-Xlint:all" />
       <module name="lec21 (1)" options="-Xlint:all" />
       <module name="lec23" options="-Xlint:all" />
-      <module name="lec24" options="-Xlint:all" />
     </option>
   </component>
 </project>
