@@ -39,7 +39,22 @@ public class Category {
     @OneToMany(mappedBy = "parent")
     private List<Category> child = new ArrayList<>();
 
-    //==연관관계 메서드==//
+    /**
+     * 연관 관계 메서드 : 이유 : 연관 관계 즉 join 관계에서는 반드시 서로 값을 조정하면서 업데이트 해줘야하는데
+     * 사람이 하는 일이라서 까먹는다.
+     * @param child
+     *
+     * 자식의 값을 넣었으면 부모에 set을 해주는 것 (자동)
+     * 예시로...
+     * public static void main(String[] args){
+     *     Member member = new Member();
+     *     Order order = new Order();
+     *
+     *     member.getOrder().add(order); //멤버가 주문을 했다. 주문 정보가 생성됐다.
+     *     order.setMember(member); // 그렇다면 그 주문한 member를 order테이블에 넣어 줘야 한다.
+     * }
+     */
+    //==연관 관계 메서드==//
     public void addChildCategory(Category child) {
         this.child.add(child);
         child.setParent(this);
