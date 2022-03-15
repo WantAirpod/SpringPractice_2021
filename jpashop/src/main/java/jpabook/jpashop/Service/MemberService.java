@@ -13,11 +13,21 @@ import java.util.List;
 @Transactional(readOnly = true) // ReadOnly이면 성능이 최적화됨
 public class MemberService {
 
+    //1.필드 Injection
     @Autowired
     private MemberRepository memberRepository;
 
+    /*
+    //2.setter Injection
+    public void setMemberRepository(MemberRepository memberRepository) {
+        this.memberRepository = memberRepository;
+    }
 
-
+    //3. 생성자 Injection
+    public MemberService(MemberRepository memberRepository) {
+        this.memberRepository = memberRepository;
+    }
+    */
 
     /**
      * 회원 가입
@@ -38,7 +48,8 @@ public class MemberService {
      */
 
     private void validateDuplicateMember(Member member) {
-        List<Member> findMembers = memberRepository.findByName(member.getName());
+        //List<Member> findMembers = memberRepository.findByName(member.getName());
+        List<Member> findMembers = memberRepository.findByName(member.getName());        //EXCEPTION
         if (!findMembers.isEmpty()) {
             throw new IllegalStateException("이미 존재하는 회원입니다.");
         }
