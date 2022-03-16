@@ -33,7 +33,11 @@ public class MemberServiceTest {
         assertEquals(member, memberRepository.findOne(saveId));
     }
 
-    @Test
+    /**
+     * try catch 대신 IllgalException을 expected 해준다.
+     * @throws Exception
+     */
+    @Test(expected = IllegalStateException.class)
     public void 중복_회원_예외() throws Exception{
         Member member1 = new Member();
         member1.setName("kim");
@@ -42,11 +46,12 @@ public class MemberServiceTest {
         member2.setName("kim");
 
         memberService.join(member1);
-        try{
+        memberService.join(member2); //예외가 발생한다.
+     /*   try{
             memberService.join(member2); //예외가 발생해야 한다.
         }catch (IllegalStateException e){
             return;
-        }
+        }*/
         //then
         fail("예외가 발생해야 한다.");
     }
