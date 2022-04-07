@@ -43,6 +43,13 @@ public class OrderService {
         //주문 상품생성
         OrderItem orderItem = OrderItem.createOrderItem(item, item.getPrice(), count);
 
+        /*
+        누군가의 구데기 같은 개발 ==> 사이드 이펙트 ==> 이렇게 못하게 막아야한다.
+        protected OrderItem() 생성자 만들기
+        OrderItem orderItem1 = new OrderItem();
+        orderItem1.setOrder("asdf");
+         */
+
         //주문 생성
         Order order = Order.createOrder(member, delivery, orderItem);
 

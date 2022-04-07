@@ -32,7 +32,10 @@ public class OrderItem {
     private int orderPrice; //주문 가격
     private int count; //주문 수량
 
-    //생성 메서드//
+    //생성 메서드 누군가 createOrderItem으로 안만들때를 위해 이렇게 코딩한다
+    protected OrderItem(){
+
+    }
 
     /**
      * 실무에서는 엄청 복잡함.
