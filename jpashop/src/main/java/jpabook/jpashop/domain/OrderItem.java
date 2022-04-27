@@ -58,7 +58,7 @@ public class OrderItem {
 
     //==비즈니스 로직==//
     public void cancel(){
-        getItem().addStcck(count); /* 재고 수량을 원복해준다.*/
+        getItem().addStcck(count); /* 재고 수량을 원복해준다. */
     }
     //==조회 로직==//
 

@@ -97,13 +97,15 @@ public class Order {
      * 주문취소 (비즈니스 로직)
      */
     public void cancel(){
+        //이미 배송 되었으면 주문취소불가
         if(delivery.getStatus() == DeliveryStatus.COMP){
             throw new IllegalStateException("이미 배송완료된 상품은 취소가 불가능합니다.");
         }
-
+        //취소 상태로 변경
         this.setStatus(OrderStatus.CANCEL);
+        //재고 상태를 원복한다.
         for(OrderItem orderItem : orderItems){
-            orderItem.cancel();
+            orderItem.cancel();  //오더아이템에 재고를 넣는 메서드 생성
         }
     }
 
